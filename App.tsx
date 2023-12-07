@@ -5,6 +5,7 @@ import StyleComponent from "./StyleComponent";
 import Coba2 from "./Coba2";
 import Coba3 from "./Coba3";
 import FlexBox from "./FlexBox";
+import Position from "./Position";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <Coba3 />
         <FlexBox />
       </View>
+      <Position />
     </ScrollView>
   );
 };
